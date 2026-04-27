@@ -1,5 +1,9 @@
 let datosXMLGuardados=[]
-const botonCargarRecetas
+const botonCargarRecetas = document.getElementById("botonCargarRecetas")
+
+botonCargarRecetas.addEventListener("click",cargarXML)
+botonCargarRecetas.textContent("")
+
 const cajaXML = document.querySelector("table")
 
 async function cargarXML(){
@@ -29,6 +33,7 @@ async function cargarXML(){
 
     }
     catch(err){
+
         console.error(err)
     }
 }

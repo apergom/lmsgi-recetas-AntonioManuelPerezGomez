@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema>
-<receta codigo="001">
+<saga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="recetas.xsd">
+
+<receta>
     <nombre>Bloste con tomate </nombre>
-    <categoria> entrante </categoria>
-    <tiempo> 33 </tiempo>
-    <dificultad> </dificultad>
+    <categoria> Entrante </categoria>
+    <tiempo> 33  </tiempo>
+    <dificultad> Complicado </dificultad>
 
 </receta>
 
-<receta codigo = "002" >
-<nombre> </nombre>
-<categoria> </categoria>
-<tiempo> </tiempo>
-<dificultad> </dificultad>
+<receta>
+<nombre> Cariulenas con patatas </nombre>
+<categoria> Principal </categoria>
+<tiempo> 67  </tiempo>
+<dificultad> Facil </dificultad>
 
 </receta>
 
-<receta codigo = "003" >
-<nombre> </nombre>
-<categoria> </categoria>
-<tiempo> </tiempo>
-<dificultad> </dificultad>
+<receta>
+<nombre> Yo, gurt </nombre>
+<categoria> Postre</categoria>
+<tiempo> 100 </tiempo>
+<dificultad> Dificil </dificultad>
 
 </receta>
-</schema>
+</saga>
