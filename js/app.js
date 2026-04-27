@@ -1,10 +1,12 @@
 let lista2 = []
 
 async function cargarXML() {
-let
+ // funcion que recoge el XML y lo muestra en la tabla
+
 }
 
 async function leerXML(){
+//funcion que lee el XML y lo convierte a JSON tras validacion
 
     let api = await fetch("./data/recetas.xml")
     let respuesta = await api.text()
