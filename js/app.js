@@ -1,4 +1,4 @@
-let lista2 = []
+
 
 async function cargarXML() {
  // funcion que recoge el XML y lo muestra en la tabla
