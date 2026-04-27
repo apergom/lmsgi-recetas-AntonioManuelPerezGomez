@@ -1,16 +1,35 @@
+let datosXMLGuardados=[]
+const botonCargarRecetas
+const cajaXML = document.querySelector("table")
 
-
-async function cargarXML() {
- // funcion que recoge el XML y lo muestra en la tabla
-
-    for (i = 0; i < listaDeRecetas; i++) {
-        try {
-            let receta = listaDeRecetas[i]
-            let tableData= document.
-
-        }catch(e) {
-            console.error("Error al cargar XML");
+async function cargarXML(){
+    try {
+        datosXMLGuardados=await leerXML()
+        for(let i=0;i<datosXMLGuardados.length;i++){
+            let receta = datosXMLGuardados[i]
+            let filaTabla = document.createElement("tbody")
+            filaTabla.innerHTML =
+                `<tr>
+                <td>
+                    <p>${receta.nombre}</p>
+                </td>
+                <td>
+                    <p>${receta.categoria}</p>
+                </td>
+                <td>
+                    <p>${receta.tiempo}</p>
+                </td>
+                <td>
+                    <p>${receta.dificultad}</p>
+                </td>
+            </tr>
+            `
+            cajaXML.appendChild(filaTabla)
         }
+
+    }
+    catch(err){
+        console.error(err)
     }
 }
 
@@ -26,7 +45,7 @@ async function leerXML(){
 
     let arrayJson = []
 
-    for (let i = 0; documentoXML.length > i; i++) {
+    for (let i = 0; documentoXML.length > i; i++){
         let elemento = documentoXML[i]
 
         let objeto = {
