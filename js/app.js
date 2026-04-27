@@ -2,7 +2,15 @@ let lista2 = []
 
 async function cargarXML() {
  // funcion que recoge el XML y lo muestra en la tabla
+    let listaDeRecetas =
+    for (i = 0; i < listaDeRecetas; i++) {
+        try {
+            let receta = listaDeRecetas[i]
 
+        }catch(e) {
+            console.error("Error al cargar XML");
+        }
+    }
 }
 
 async function leerXML(){
@@ -27,6 +35,7 @@ async function leerXML(){
             tiempo : Number(elemento.querySelector("tiempo")),
             dificultad: Number(elemento.querySelector("dificultad")),
         }
+
         arrayJson.push(objeto)
     }
     return arrayJson
