@@ -2,7 +2,6 @@ let datosXMLGuardados=[]
 const botonCargarRecetas = document.getElementById("botonCargarRecetas")
 
 botonCargarRecetas.addEventListener("click",cargarXML)
-botonCargarRecetas.textContent("")
 
 const cajaXML = document.querySelector("table")
 
@@ -11,7 +10,7 @@ async function cargarXML(){
         datosXMLGuardados=await leerXML()
         for(let i=0;i<datosXMLGuardados.length;i++){
             let receta = datosXMLGuardados[i]
-            let filaTabla = document.createElement("tbody")
+            let filaTabla = cajaXML.createElement("tbody")
             filaTabla.innerHTML =
                 `<tr>
                 <td>

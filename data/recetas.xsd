@@ -10,9 +10,12 @@
                             <xs:element name="tiempo" type="xs:int"/>
                             <xs:element name="dificultad" type="xs:string"/>
                         </xs:sequence>
+                        <xs:attribute name="codigo" use="required"/>
                     </xs:complexType>
+
                 </xs:element>
             </xs:sequence>
+        <xs:attribute name="nombre" use="required"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>

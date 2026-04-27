@@ -2,7 +2,7 @@
 <saga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="recetas.xsd">
 
-<receta>
+<receta codigo="001">
     <nombre>Bloste con tomate </nombre>
     <categoria> Entrante </categoria>
     <tiempo> 33  </tiempo>
@@ -10,7 +10,7 @@
 
 </receta>
 
-<receta>
+<receta codigo="002">
 <nombre> Cariulenas con patatas </nombre>
 <categoria> Principal </categoria>
 <tiempo> 67  </tiempo>
@@ -18,7 +18,7 @@
 
 </receta>
 
-<receta>
+<receta codigo="003">
 <nombre> Yo, gurt </nombre>
 <categoria> Postre</categoria>
 <tiempo> 100 </tiempo>
