@@ -1,1 +1,6 @@
+Validacion de XML mediante XSD para comprobar que los datos insertados cumplen el formato pedido. Esto hace que a la hora de almacenar datos sea todo muchisimo mas seguro.
+
+
+
+
 La herramienta DOMParser nos ayuda a trasladar nuestros datos del archivo xml, conocido por su robustez en la estructuracion de datos pero complejidad a la hora de ser leido por un humano, a un formato mucho mas legible como es JSON que ademas no solo nos permite entender mejor el funcionamiento del guardado de datos, sino que le facilitamos a la propia máquina mediante JavaScript la lectura de estos.

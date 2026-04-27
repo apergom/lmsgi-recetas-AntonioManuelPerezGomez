@@ -1,9 +1,9 @@
 let datosXMLGuardados=[]
 const botonCargarRecetas = document.getElementById("botonCargarRecetas")
+let cajaXML = document.getElementById("table")
 
 botonCargarRecetas.addEventListener("click",cargarXML)
 
-const cajaXML = document.querySelector("table")
 
 async function cargarXML(){
     try {
@@ -17,7 +17,7 @@ async function cargarXML(){
                     <p>${receta.nombre}</p>
                 </td>
                 <td>
-                    <p>${receta.categoria}</p>
+                    <p>${receta.categoria.add("badge")}</p>
                 </td>
                 <td>
                     <p>${receta.tiempo}</p>

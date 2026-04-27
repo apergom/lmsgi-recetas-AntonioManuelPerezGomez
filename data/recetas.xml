@@ -7,22 +7,17 @@
     <categoria> Entrante </categoria>
     <tiempo> 33  </tiempo>
     <dificultad> Complicado </dificultad>
-
 </receta>
-
 <receta codigo="002">
-<nombre> Cariulenas con patatas </nombre>
-<categoria> Principal </categoria>
-<tiempo> 67  </tiempo>
-<dificultad> Facil </dificultad>
-
+    <nombre> Cariulenas con patatas </nombre>
+    <categoria> Principal </categoria>
+    <tiempo> 67  </tiempo>
+    <dificultad> Facil </dificultad>
 </receta>
-
 <receta codigo="003">
-<nombre> Yo, gurt </nombre>
-<categoria> Postre</categoria>
-<tiempo> 100 </tiempo>
-<dificultad> Dificil </dificultad>
-
+    <nombre> Yo, gurt </nombre>
+    <categoria> Postre</categoria>
+    <tiempo> 100 </tiempo>
+    <dificultad> Dificil </dificultad>
 </receta>
 </saga>
