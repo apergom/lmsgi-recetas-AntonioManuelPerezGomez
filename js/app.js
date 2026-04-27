@@ -2,10 +2,11 @@
 
 async function cargarXML() {
  // funcion que recoge el XML y lo muestra en la tabla
-    let listaDeRecetas =
+
     for (i = 0; i < listaDeRecetas; i++) {
         try {
             let receta = listaDeRecetas[i]
+            let tableData= document.
 
         }catch(e) {
             console.error("Error al cargar XML");
