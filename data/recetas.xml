@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema>
-<receta codigo = "001" >
-    <nombre> </nombre>
-    <categoria> </categoria>
-    <tiempo> </tiempo>
+<receta codigo="001">
+    <nombre>Bloste con tomate </nombre>
+    <categoria> entrante </categoria>
+    <tiempo> 33 </tiempo>
     <dificultad> </dificultad>
 
 </receta>
